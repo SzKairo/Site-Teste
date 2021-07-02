@@ -1,0 +1,218 @@
+/*-----------------------Padrão--------------------- */
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+h1{
+  font-family: 'Amiri', serif;
+  font-size: 5rem;
+
+}
+
+h2 {
+  font-family: 'Indie Flower', cursive;
+  font-size: 2.5rem;
+  color: #11999E;
+}
+
+h3 {
+  font-family: 'Indie Flower', cursive;
+  font-size: 2.5rem;
+  color: #11999E;
+
+}
+
+a {
+  color: #11999E;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #40514E;
+  border-width: 5px;
+  width: 5%;
+}
+
+
+/*------------------------ClASS--------------------- */
+
+/*------------------------TOPO-----------------*/
+
+.Topo {
+  background-color: #EAF6F6;
+  position: relative;
+  padding-top: 130px;
+}
+
+.Nome {
+  color: #66BFBF;
+  position: relative;
+  margin: 0 auto 0 auto;
+}
+
+.Nomezinho {
+  color: #66BFBF;
+  font-weight: normal;
+  position: relative;
+  margin: 50px auto 0 auto;
+  bottom: 60px;
+}
+
+.Nuvem-Superior {
+ position: absolute;
+ top: 50px;
+ right: 300px;
+}
+
+.Nuvem-Inferior {
+ position: absolute;
+ left: 200px;
+}
+
+.Montanha {
+ position: relative;
+ top: 4px;
+}
+
+/*------------------------APRESENTAÇÃO-----------------*/
+.profile {
+  width: 50%;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  text-align: left;
+  line-height: 2;
+}
+
+.Olá {
+  position: relative;
+  left: 335px;
+}
+
+.Foto-Kairo {
+  position: relative;
+  left: 280px;
+  bottom: 20px;
+  width: 25%;
+  border-radius: 50%
+}
+
+.Texto-Apresentação {
+  text-align: center;
+  margin: auto;
+  line-height: 2;
+  color: #40514E;
+}
+/*------------------------SKILLS-----------------*/
+.skill-row {
+  width: 50%;
+  margin: auto;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  text-align: left;
+  line-height: 2;
+}
+
+.Minhas-Skills {
+  margin: 100px auto auto auto;
+}
+
+.Logo-kairo {
+  width: 25%;
+  float: left;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.Chillie {
+  width: 25%;
+  float: right;
+  margin: 20px;
+}
+/*------------------------CONTATO-----------------*/
+
+.Contato-1 {
+ margin: 150px auto auto auto;
+}
+
+.Contato-2 {
+
+}
+
+.Contato-3 {
+ margin: auto auto 100px auto;
+}
+
+.btn {
+   background: #66BFBF;
+   background-image: -webkit-linear-gradient(top, #66BFBF, #66BFBF);
+   background-image: -moz-linear-gradient(top, #66BFBF, #66BFBF);
+   background-image: -ms-linear-gradient(top, #66BFBF, #66BFBF);
+   background-image: -o-linear-gradient(top, #66BFBF, #66BFBF);
+   background-image: -webkit-gradient(to bottom, #66BFBF, #66BFBF);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: #FFFFFF;
+   font-family: Helvetica;
+   font-size: 27px;
+   font-weight: 100;
+   padding: 21px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.btn:hover {
+   border: solid #66BFBF 1px;
+   background: #66BFBF;
+   background-image: -webkit-linear-gradient(top, #66BFBF, #66BFBF);
+   background-image: -moz-linear-gradient(top, #66BFBF, #66BFBF);
+   background-image: -ms-linear-gradient(top, #66BFBF, #66BFBF);
+   background-image: -o-linear-gradient(top, #66BFBF, #66BFBF);
+   background-image: -webkit-gradient(to bottom, #66BFBF, #66BFBF);
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
+
+/*------------------------Sites-----------------*/
+
+.Baixo {
+  background-color: #66BFBF;
+  width: 100%;
+  height: 200px;
+  margin: 150px auto auto auto;
+}
+
+.Youtube {
+ color: #11999E;
+ position: relative;
+ top: 40px;
+ right: 30px;
+}
+
+.Instagram {
+  color: #11999E;
+  position: relative;
+  top: 40px;
+}
+
+.Spotify {
+  color: #11999E;
+  position: relative;
+  top: 40px;
+  left: 30px;
+}
+
+.Direitos {
+  color: #11999E;
+  position: relative;
+  top: 60px;
+}
